@@ -42,19 +42,6 @@ public class ExampleUnitTest {
                 });
 
 
-
-
-        Observable.create(emitter -> {
-
-        }).map(i -> {
-
-        }).subscribe(new Consumer<R>() {
-            @Override
-            public void accept(R r) throws Exception {
-
-            }
-        };
-
         Observable.create((ObservableOnSubscribe<String>) emitter -> {
             emitter.onNext("哈哈哈哈哈");
             emitter.onNext("好吧");
